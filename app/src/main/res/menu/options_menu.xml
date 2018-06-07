@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checkable="false"
+            android:title="Home"/>
+        <item
+            android:id="@+id/history"
+            android:checkable="false"
+            android:title="Task History"/>
+        <item
+            android:id="@+id/profile"
+            android:checkable="false"
+            android:title="My Profile"/>
+        <item
+            android:id="@+id/current"
+            android:checkable="false"
+            android:title="Current Task"/>
+
+    </group>
+
+</menu>
